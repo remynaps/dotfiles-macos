@@ -1,0 +1,27 @@
+[user]
+    name = Remy Span
+    email = remysije@gmail.com
+[alias]
+    co = checkout
+    st = status
+    
+    # log with short SHA, description, history graph of latest 20 commits
+    l = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+    # View the current working tree status using the short format
+    s = status -s
+
+    # Show verbose list of tags, branches, and remotes
+    tags = tag -l
+    branches = branch -a
+    remotes = remote -v
+
+    # List commiters with number of commits
+    contributors = shortlog --summary --numbered
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+[color]
+    ui = true
+[gpg]
+    program = gpg2
