@@ -1,5 +1,5 @@
 # dotfiles-macos
-:fire: My dot files for my MacBook
+:fire: Dot files for my MacBook
 
 This repository contains the dotfiles and setup scripts i use on my macbook.
 
